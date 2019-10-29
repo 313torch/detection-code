@@ -8,9 +8,9 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description='Process a checkpoint to be published')
     parser.add_argument('--in_file', help='input checkpoint filename',
-                        default="/media/ljy2019/760AE2350AE1F1D3/djw/mmdetection_djw/tools/logs_lib18/epoch_1.pth")
+                        default="./epoch_1.pth")
     parser.add_argument('--out_file', help='output checkpoint filename',
-                        default='/media/ljy2019/760AE2350AE1F1D3/djw/mmdetection_djw/tools/logs_lib18/model_1.pth')
+                        default='./model_1.pth')
     args = parser.parse_args()
     return args
 
